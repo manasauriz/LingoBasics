@@ -1,24 +1,26 @@
 # Lingo Basics
-#### [Video Demo](https://youtu.be/7IeChsuiha4)
 
 ## Description
 A simple GUI based language learning program written in Python. Get familiar with the basics of a number of languages by guessing what common words in those languages mean in English.
 
 ## Usage
-Make sure Python3 is installed and install the following dependencies if not present.
-> ```Tkinter``` implements the graphical user interface
+Make sure Python3 is installed and install dependencies using pip:
+> 
 ```python
-pip install tk==0.1.0
+pip install -r requirements.txt
 ```
-> ```Googletrans``` handles the translation of words from English to other languages
-```python
-pip install googletrans==4.0.0-rc1
+Clone this repo and run ```app.py``` to start the program
+> 
 ```
-> ```Pillow``` takes care of image creation and manipulation
-```python
-pip install pillow==10.4.0
+python app.py
 ```
-Clone this repo and run ```project.py``` to start the program
+
+## Demo
+![Home](examples/home.png?raw=true)
+![Select Language](examples/language_select.png?raw=true)
+![Select Category](examples/category_select.png?raw=true)
+![Guess](examples/example1.png?raw=true)
+![Answer](examples/example2.png?raw=true)
 
 ## Credits
 Assets for images categorized by names obtained through https://www.flashcardsforkindergarten.com/
